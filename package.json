@@ -1,0 +1,27 @@
+{
+  "name": "recipes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "predeploy": "npm run build",
+    "deploy": "npx gh-pages -d _site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmhainje/recipes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmhainje/recipes/issues"
+  },
+  "homepage": "https://github.com/cmhainje/recipes#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "gh-pages": "^5.0.0"
+  }
+}
