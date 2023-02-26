@@ -21,7 +21,10 @@
   },
   "homepage": "https://github.com/cmhainje/recipes#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.0",
     "gh-pages": "^5.0.0"
+  },
+  "dependencies": {
+    "@11ty/eleventy-plugin-bundle": "^1.0.1"
   }
 }

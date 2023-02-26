@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 12px 24px;
+  font-family: sans-serif;
+}
+
+div.recipe {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.ingredients {
+  width: 300px;
+  flex: auto;
+}
+
+div.instructions {
+  width: 500px;
+  flex: auto;
+}
