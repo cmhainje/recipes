@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,10 +5,44 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spam musubi</title>
+  <style>body {
+  margin: 0;
+  padding: 12px 24px;
+  font-family: sans-serif;
+}
+
+div.recipe {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.ingredients {
+  width: 300px;
+  flex: auto;
+}
+
+div.instructions {
+  width: 500px;
+  flex: auto;
+}
+:root {
+  --font-family: -apple-system, system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 12px 24px;
+  font-family: var(--font-family);
+}</style>
 </head>
 <body>
-  <h1>Spam musubi</h1>
-  <h2>Ingredients</h2>
+    
+
+<h1>Spam musubi</h1>
+
+<div class="recipe">
+<div class="ingredients">
+<h2>Ingredients</h2>
 <p>Yields 8 servings</p>
 <ul>
 <li>2 Tbsp soy sauce</li>
@@ -21,6 +54,8 @@
 <li>2 tsp furikake</li>
 <li>5 to 6 cups cooked short-grain white rice</li>
 </ul>
+</div>
+<div class="instructions">
 <h2>Instructions</h2>
 <ol>
 <li>In a small bowl, whisk the soy sauce, sugar, and mirin (if using). Set aside.</li>
@@ -28,10 +63,13 @@
 <li>To mold the musubi, start by placing a strip of nori, rough side up, on a cutting board or clean work surface. Place a Spam musubi make mold over it, in the middle, then place a slice of Spam into the mold. (If you don't have a mold, you can line a clean Spam can with plastic wrap instead, and place a slice of Spam at the bottom.) Spring 1/4 tsp of furikake over the Spam, then fill the mold or can with a generous mound of rice. Press the rice firmly with the musubi make press or with your hands until it is 3/4- to 1-inch thick, adding more rice as needed.</li>
 <li>Use the press to hold the rice down with one hand and pull the mold upward to unmold the musubi with your other hand. (If you're using the Spam can, gently lift the Spam adn rice out of the can by gently pulling on both sides of the plastic wrap.) Wrap the nori around the Spam-rice stack, bringing both ends of the strip to the middle, folding one over the other, and flipping it over so the seam is down and the Spam is facing up. Repeat with remaining ingredients. Serve immediately or wrap with plastic wrap to take with you on the go.</li>
 </ol>
+</div>
 
+</div>
 
-  <p>
-    <i>Original recipe from <a href=https://cooking.nytimes.com/recipes/1020160-spam-musubi>here</a>, since modified.</i>
-  </p>
+<p>
+<i>Original recipe from <a href="https://cooking.nytimes.com/recipes/1020160-spam-musubi">here</a>, since modified.</i>
+</p>
+
 </body>
 </html>
